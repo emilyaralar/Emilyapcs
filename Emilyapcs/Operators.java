@@ -55,25 +55,51 @@ class Operators {
    // bcsCoinsWorth = bcsCoinsOwned * bcsCoinValue; //This is the exact same calculation we used earlier, but we updated bcsCoinValue, so let's calculate it again.
    // System.out.println("My current BCSCoins could eventually be worth $" + bcsCoinsWorth);    
 
- Boolean haveJob = true;
-    Boolean lookingForWork = true;
-    Boolean canProgram = true;
-    int currentSavings = 0;
+ //Boolean haveJob = true;
+   // Boolean lookingForWork = true;
+    //Boolean canProgram = true;
+    //int currentSavings = 0;
 
    
-    if(!haveJob) {
-        if(lookingForWork && canProgram) {
-            System.out.println("Your chances as getting a job go up!");
-        }
-        else {
-            System.out.println("You might need to gain more skills before you can get a job.");
-        }
+    //if(!haveJob) {
+      //  if(lookingForWork && canProgram) {
+         //   System.out.println("Your chances as getting a job go up!");
+        //}
+        //else {
+          //  System.out.println("You might need to gain more skills before you can get a job.");
+        //}
+    //}
+    //if(currentSavings < 500) {
+      //  System.out.println("You should be saving more money.");
+    //}
+    //else {
+      //  System.out.println("Do you need to save more money, still?");
+    //}
+    //}
+
+Boolean haveBoyfriend = false;
+Boolean isCute = false;
+Boolean isSmart = false;
+
+
+if(haveBoyfriend){
+  if(isCute && isSmart){
+    System.out.println("You should marry him!");
+  }
+  else if (isCute){
+    System.out.println("You should look for a different boyfriend");
+  }
+  else if (isSmart){
+    System.out.println("You should look for a different boyfriend");
+  }
+  else {
+      System.out.println("Then why are you even dating him?");
+  }
+}
+else {
+  System.out.println("You should look for a boyfriend!");
+}
+
     }
-    if(currentSavings < 500) {
-        System.out.println("You should be saving more money.");
-    }
-    else {
-        System.out.println("Do you need to save more money, still?");
-    }
-    }
+
 }
