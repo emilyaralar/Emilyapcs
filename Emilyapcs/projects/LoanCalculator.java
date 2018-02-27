@@ -41,6 +41,15 @@ public class LoanCalculator{
             + "(1) Flat Interest\n"
             + "(2) Compounding Interest Without Monthly Payments\n"
             + "(3) Compounding Interest With Monthly Payments\n"
+       
+       
         );
+    scanA = new Scanner(System.in);
+            printModeStatement(); 
+            if(scan.hasNextInt()) { 
+             int loanAmt = scan.nextInt();
+                if() { 
+                    break; 
+    
     }
 }
